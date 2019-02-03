@@ -26,3 +26,8 @@ vialectrum/gui/kivy/theming/light.atlas
 .cache/
 .coverage
 .pytest_cache
+
+# Viacoin specific
+contrib/build-wine/tmp/*
+contrib/deterministic-build/vialectrum-icons
+contrib/deterministic-build/vialectrum-locale
