@@ -85,4 +85,4 @@ dmg dmg Vialectrum_uncompressed.dmg vialectrum-$VERSION.dmg || fail "Unable to c
 rm Vialectrum_uncompressed.dmg
 
 echo "Done."
-md5sum vialectrum-$VERSION.dmg
+sha256sum vialectrum-$VERSION.dmg

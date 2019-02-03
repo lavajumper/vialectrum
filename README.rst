@@ -84,25 +84,25 @@ Create translations (optional)::
 Creating Binaries
 =================
 
+Linux
+-----
 
-To create binaries, create the 'packages' directory::
+See :code:`contrib/build-linux/README.md`.
 
-    ./contrib/make_packages
-
-This directory contains the python dependencies used by Vialectrum.
 
 Mac OS X / macOS
---------
+----------------
 
-See `contrib/osx/`.
+See :code:`contrib/osx/README.md`.
+
 
 Windows
 -------
 
-See `contrib/build-wine/`.
+See :code:`contrib/build-wine/docker/README.md`.
 
 
 Android
 -------
 
-See `vialectrum/gui/kivy/Readme.md` file.
+See :code:`vialectrum/gui/kivy/Readme.md`.

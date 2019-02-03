@@ -5,8 +5,9 @@ build/
 dist/
 *.egg/
 contrib/pyinstaller/
-Vialectrum.egg-info/
 locale/
+Vialectrum.egg-info/
+vialectrum/locale/
 .devlocaltmp/
 *_trial_temp
 packages
