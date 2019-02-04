@@ -43,6 +43,8 @@ datas = [
     (home+'vialectrum/locale', 'vialectrum/locale'),
     (home+'vialectrum/plugins', 'vialectrum/plugins'),
     ('C:\\Program Files (x86)\\ZBar\\bin\\', '.'),
+    (home+'icons/*.png', 'icons'),
+    (home+'icons/*.svg', 'icons'),
 ]
 datas += collect_data_files('trezorlib')
 datas += collect_data_files('safetlib')
