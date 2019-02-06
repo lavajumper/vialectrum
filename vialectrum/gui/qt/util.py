@@ -827,8 +827,8 @@ class FromList(QTreeWidget):
 
 
 class UpdateCheck(QWidget, PrintError):
-    url = "https://electrum-ltc.org/version"
-    download_url = "https://electrum-ltc.org/#download"
+    url = "https://vialectrum.org/version"
+    download_url = "https://github.com/viacoin/vialectrum/releases/latest"
 
     VERSION_ANNOUNCEMENT_SIGNING_KEYS = (
         "LWZzbv5SbiRRjBDL6dUYRdBX9Dp89RDZgG",
@@ -837,7 +837,7 @@ class UpdateCheck(QWidget, PrintError):
     def __init__(self, main_window, latest_version=None):
         self.main_window = main_window
         QWidget.__init__(self)
-        self.setWindowTitle('Electrum-LTC - ' + _('Update Check'))
+        self.setWindowTitle('Vialectrum - ' + _('Update Check'))
         self.content = QVBoxLayout()
         self.content.setContentsMargins(*[10]*4)
 
