@@ -75,6 +75,7 @@ from .fee_slider import FeeSlider
 from .util import *
 from .installwizard import WIF_HELP_TEXT
 from .history_list import HistoryList, HistoryModel
+from .update_checker import UpdateCheck, UpdateCheckThread
 
 
 class StatusBarButton(QPushButton):
@@ -229,7 +230,7 @@ class ElectrumWindow(QMainWindow, MessageBoxMixin, PrintError):
         # If the option hasn't been set yet
         if config.get('check_updates') is None:
             choice = QMessageBox.question(self,
-                                 "Electrum-LTC - " + _("Enable update check"),
+                                 "Vialectrum - " + _("Enable update check"),
                                  _("For security reasons we advise that you always use the latest version of Electrum.") + " " +
                                  _("Would you like to be notified when there is a newer version of Electrum available?"),
                                  QMessageBox.Yes,

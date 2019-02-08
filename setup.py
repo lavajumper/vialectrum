@@ -79,7 +79,7 @@ setup(
             'wordlist/*.txt',
             'locale/*/LC_MESSAGES/electrum.mo',
         ],
-        'electrum_ltc.gui': [
+        'vialectrum.gui': [
             'icons/*',
         ],
     },
